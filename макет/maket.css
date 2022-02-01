@@ -1,0 +1,1330 @@
+/*Подключение шрифта*/
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&family=Dongle:wght@700&family=Fredoka+One&family=Hepta+Slab:wght@500&family=Kanit:wght@700&family=Karla&family=Kranky&family=Mochiy+Pop+P+One&family=Monoton&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@600&family=Roboto+Slab:wght@100;200;300;400;500;600&family=Titillium+Web:wght@300&display=swap');
+@font-face {
+	font-family: 'Conv_lionel-text-steam_bigfontsite.com';
+	src: url('fonts/lionel-text-steam_bigfontsite.com.eot');
+	src: local('☺'), url('fonts/lionel-text-steam_bigfontsite.com.woff') format('woff'), url('fonts/lionel-text-steam_bigfontsite.com.ttf') format('truetype'), url('fonts/lionel-text-steam_bigfontsite.com.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    outline: none;
+    border: none;
+    box-sizing: border-box; 
+}
+
+html{
+    scroll-behavior:smooth; 
+    
+
+}
+
+body{
+    
+    height: auto;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    justify-content: space-between;
+}
+
+
+
+.header__links{
+    text-decoration: none;
+}
+
+main{
+    background: url('images2/fon2.jpg')no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+}
+
+header h1{
+    display: inline-flex;
+    margin: 15px 15px 15px 15px;
+    cursor: pointer;
+}
+
+header div{
+    align-items: center;
+    display: flex;
+}
+
+header a{
+    display: flex;
+    align-items: right;
+    font-size: 16px;
+    color: #B0B0B0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    padding: 17px 15px 17px 15px;
+    border-bottom: 2px solid rgba(212, 92, 48, 0);
+}
+
+header a:hover{
+    color: rgb(212, 92, 48);
+    border-bottom: 2px solid rgb(212, 92, 48);
+}
+
+.mdi-cart-outline{
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out ;
+}
+
+.mdi-cart-outline:hover{
+    color:rgb(212, 92, 48);
+    transform: scale(1.2);
+    
+}   
+
+
+.mdi-account{
+    /* padding-left: 10px; */
+    font-size: 28px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out ;
+    
+    
+}
+
+.mdi-account:hover{
+    color:rgb(212, 92, 48);
+    transform: scale(1.2);
+
+}
+
+.header__item__logo{
+    display: flex;
+    margin-left: 150px;
+}
+
+.header__item__links{
+    display: flex;
+    margin-right: 150px;
+}
+
+.first__peace__of_logo{
+    display: inline-flex;
+    margin: 10px 0px 10px 0px;
+    font-size: 32px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.second__peace__of_logo{
+    display: inline-flex;
+    margin: 10px 15px 10px 0px;
+    font-size: 32px;
+    color: rgb(212, 92, 48);
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.your__picture{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    color: #B0B0B0;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: right;   
+}
+
+.first-peace-of-logo-on_main{
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    color: white;
+}
+
+.second-peace-of-logo-on_main{
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    color: rgb(212, 92, 48);
+}
+
+.main__content{
+    margin-left: 150px;
+    flex: 0 0 50%;
+    margin-top: 130px;
+}
+
+.modern_axure{   
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 30;
+
+}
+
+.main_divider{
+    border: 1px solid rgba(228, 220, 220, 0.829);
+    max-width: 90px;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.644);
+    margin-bottom: 40px;
+}
+
+.article{
+    font-size: 12.5px;
+    font-family: 'Poppins', sans-serif;
+    color: #BABABA;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+}
+
+
+
+.button{
+    border: 2px solid white ;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover{
+    border: 2px solid rgb(197, 91, 52);
+    color: rgb(197, 91, 52);
+}
+
+.right_main{
+    flex: 0 0 40%;
+    border-radius: 5px;
+
+}
+
+.layout{
+    display: flex;
+    margin: 0 auto;
+}
+
+.form{  
+    width: 350px;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 60px; 
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.form__header{
+    width: 350px;
+    height: 60px;
+    background-color: #e5e2e2;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+.form-header__h{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-left: 25px; */
+    font-size: 20px;
+    color: #333333;
+    
+    
+    
+    
+}
+
+.word__free{
+    color: #FF9B51;
+
+}
+
+.form__input{
+    flex: 0 0 calc(100%-60px);
+    max-height: 0 0 calc(100%-60px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 230px;
+    display: flex;
+    background-color: #FFFFFF;
+   
+   
+
+}
+
+.form_input__styles{
+    margin-bottom: 0px;
+    padding: 8px 70px 8px 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 15px;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.3);
+    opacity: 0.5;
+    display: flex;
+    
+    border-radius: 5px;
+}
+
+.form_input__styles:focus{
+    border: 1.5px solid rgb(219, 85, 36);
+
+}
+
+.get__started {
+    display: block;
+    /* margin-left: 50px; */
+    transition: all 0.3s ease-in-out;
+    height: 50px;
+    background-color: #FF9B51;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.get__started:hover{
+    background-color: #f3842e;
+
+}
+
+.get__started_aAA{
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+/* .get__started_aAA:hover{
+    color: rgb(216, 213, 213);
+
+} */
+
+/* ---------------------------------------------SOCIAL MEDIA---------------------------- */
+
+.social__media{
+    width: 100%;
+    height: 100px;
+    /* margin-top: 93px; */
+    background-color: white;
+    display: flex;
+    /* border-bottom: 3px solid #D2D2D2; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.644);
+    margin-bottom: 10px;
+    justify-content:space-evenly;
+}
+
+.social__media__text{
+    /* margin-left: 150px; */
+    flex: 0 0 25%;
+    margin-left: 150px;
+    
+}
+
+
+.social__media__text p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    
+}
+
+.social__media__text h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-top: 5px;
+    opacity: 0.8;
+    font-weight: 1000;
+    
+
+}
+
+.social__media__links{
+    display: flex;
+    height: 100px;
+    flex: 0 0 50%; 
+    align-items: center;
+    margin-left: 150px;
+}
+
+.social__media__links__blocks{
+    width: 80px;
+    height: 70px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.social__media__links i{
+    font-size: 55px;
+    cursor: pointer;
+    opacity: 0.25;
+    transition: all 0.2s ease-in-out;
+}
+
+.social__media__links i:hover{
+    transform: scale(1.2);
+    color: #FF9A52;
+    opacity: 1;
+}
+
+
+/* --------------------------------------БЛОКИ TABES----------------------------------- */
+.tabes{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 600px;
+    box-shadow: 0 0 10px #F5F5F5;
+
+}
+
+.tabes__item{
+    display: inline-flex;
+    margin-top: 130px;
+    margin-left: 160px;
+    
+
+}
+
+.tabes__item__blocks{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    
+    flex-direction: column;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.tabes__item__main{
+    margin-left: 100px;
+
+}
+
+.tabs{
+    display: flex;
+    color: white;  
+    justify-content: center;
+    text-align: center;  
+    margin-top: 45px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.tab1{
+    width: 115px;
+    height: 115px;
+    background-color: #ec6f16; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.tab1:hover{
+    background-color: #FF8B38;
+}
+
+.tab2{
+    width: 115px;
+    height: 115px;
+    background-color: #252525; 
+    border-top: 2px solid #848484; 
+    cursor: pointer;  
+}
+
+.tab2:hover{
+    background-color: #333333; 
+}
+
+.tab3{
+    width: 115px;
+    height: 115px;
+    background-color: #252525;
+    border-top: 2px solid #848484; 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.tab3:hover{  
+    background-color: #333333; 
+}
+
+/* ---------------------------tabes__item__main----------------------- */
+
+.tabes__item__main h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+}
+
+.tabes__item__main p{
+    opacity: 0.6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+
+
+}
+
+.second__paragrahp{
+    margin-top: 20px;
+    margin-bottom: 85px;
+}
+
+
+.button2{   
+    padding: 13px 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #FF8B38;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+
+.button2:hover{
+    background-color: #e96f18;
+
+}
+
+.tabes__item__photo img{
+    margin-left: 100px;
+
+}
+
+
+/* ---------------------------sub__list__section---------------------------- */
+
+.future__list{
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.place__for__picture{
+   flex: 0 0 50%;
+    
+
+}
+
+.peace__with__header{
+    flex: 0 0 50%;
+}
+
+.sub__picture{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(128, 125, 128, 0.507);
+    margin-top: 150px;
+    margin-left: 150px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+}
+
+
+
+
+.header__peace2{
+    margin-top: 130px;
+    
+
+}
+
+.header__peace2 h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.header__peace2 p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, .4);
+
+}
+
+.header__devider{
+    border: 1px solid #FFAB70;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.all__letters{
+    display: block;
+    margin-top: 30px;
+}
+
+.all__letters p{
+    margin-top: -5px;
+
+}
+
+.first__leter{
+    display: flex;
+    /* background-color: red; */
+    padding-top: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.first__leter:hover .i{
+    /* font-size: 28px; */
+}
+
+.second__letter{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.icons i{
+    font-size: 24px;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #FE974C;
+    border: 2.5px solid #FE974C;
+    border-radius: 50%;
+    margin-right: 35px;
+    justify-content: center;
+    transition: all 0.1s ease-in-out;
+    
+}
+
+.letter__article{
+    font-family: 'Dongle', sans-serif;
+    font-size: 22px;
+}
+
+.future__list2{
+    height: 600px;
+    background-color: #F5F5F5;
+    display: flex;
+}
+
+.peace__with__header2{
+    flex: 0 0 50%;
+    
+    
+}
+
+.peace__with__picture{
+    flex: 0 0 50%;
+
+}
+
+.header__peace20{
+    margin-top: 150px;
+    margin-left: 150px;
+
+}
+
+.peace__with__header2 h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.peace__with__header2 p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, .4);
+
+}
+
+.second__paragrahp2{
+    margin-top: 20px;
+
+}
+
+/* ------------------------why__this__is__awesome-------------------------- */
+
+.why__this__is__awesome{
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.562);
+    
+
+}
+
+.main_header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.main_header h1{
+    margin-top: 100px;
+    font-family: 'Conv_lionel-text-steam_bigfontsite.com';
+    font-weight:initial;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+
+.main_header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    opacity: 0.5;
+
+}
+
+.header__devider2{
+    border: 1px solid #FFAB70;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 740px;
+}
+
+.blocks__with__reasons{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+
+}
+ 
+
+.first__block__content {
+    height: 250px;
+    width: 400px;
+    background-color: rgb(255, 255, 255); 
+    /* margin-top: 50px; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.first__block__content:hover{
+    /* background-color: rgba(0, 0, 0, 0.05); */
+    border-radius: 10px ;
+}
+
+.first__block__content:hover i{
+    transform: scale(1.2);
+}
+
+.second__block__content{
+    height: 250px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 50px; */
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.second__block__content:hover{
+    /* background-color: rgba(0, 0, 0, 0.05); */
+    border-radius: 10px ;
+}
+
+.second__block__content:hover i{
+    transform: scale(1.2);
+}
+
+.third__block__content{
+    height: 250px;
+    width: 400px;
+    background-color: rgb(255, 255, 255); 
+    /* margin-top: 50px; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.third__block__content:hover{
+    /* background-color: rgba(0, 0, 0, 0.05); */
+    border-radius: 10px ;
+}
+
+.third__block__content:hover i{
+    transform: scale(1.2);
+}
+
+.blocks__logos{
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    color: #ff8b3e;
+    margin-top: 10px;
+}
+
+.blocks__logos i{
+    border: 2.5px solid #ff8b3e;
+    border-radius: 50%;
+    padding: 8px 12px;
+    transition: all 0.3s ease-in ;
+}
+
+.first__block__content h1, .second__block__content h1, .third__block__content h1{
+    margin: 20px 0px 20px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 23px;
+}
+
+.first__block__content p, .second__block__content p, .third__block__content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.5;
+    font-size: 13px;
+
+}
+
+
+/* -------------------------------price__header-------------------------------- */
+
+.pricing{
+    height: 850px;
+    background-color: #f5f5f5;
+    
+}
+
+.price__header{
+    text-align: center;  
+    display: flex;
+    flex-direction: column; 
+}
+
+.price__header h1{
+    margin-top: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: 33px;
+}
+
+.price__header p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.product{
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.basic__product{
+    width: 350px;
+    height: 400px;
+    background-color: rgba(0, 0, 255, 0.288);
+    flex: 0 0 20%;
+    margin-top: 140px;
+    cursor: pointer;
+}
+
+
+.professional__product{
+    width: 350px;
+    height: 450px;
+    /* background-color: rgba(0, 0, 255, 0.288); */
+    flex: 0 0 20%;
+    margin: 90px 50px 0px 50px;
+    cursor: pointer;
+}
+
+.enterprise__product{
+    width: 350px;
+    height: 400px;
+    background-color: rgba(0, 0, 255, 0.288); 
+    flex: 0 0 20%;
+    margin-top: 140px;
+    cursor: pointer;
+}
+
+.product__head{
+    height: 50px;
+    background-color: #333333;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 11px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.product__cost{
+    height: 100px;
+    background-color: #333333;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 90px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top: 1.6px solid white;
+    border-bottom: 1.6px solid white;
+}
+
+.dollar{
+    font-size: 50px;
+}
+
+.how__long{
+    height: 50px;
+    background-color: #333333;
+    color: #999999;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 13px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.most__popular{
+    height: 40px;
+    background-color: #ff8b38;
+    text-align: center;
+    color: white;
+    padding-top: 9px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.list__of__services{
+    height: 210px;
+    background-color: rgba(0, 100, 0, 0.274);
+
+}
+
+.services{
+    text-align: center;
+    display: block;
+    
+}
+
+.first__string{
+    height: 35px;
+    padding-top: 8px;
+    color: rgba(0, 0, 0, .4);   
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 1000;
+    
+}
+
+.string{
+    height: 35px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 8px;
+    color: rgba(0, 0, 0, .4);   
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 1000;
+}
+
+/* ------------------------------------customers__title__main------------------------------ */
+
+.customers-title__background{
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.customers-title{
+    text-align: center;
+    padding-top:100px ;
+}
+
+.customers-title h1{
+    font-family: 'Conv_lionel-text-steam_bigfontsite.com';
+    font-weight: initial;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+
+.customers-title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.customers-title__carousel{
+    height: 230px;
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.customers-title__carousel__block{
+    width: 270px;
+    height: 230px;
+    background-color: rgb(255, 255, 255); 
+}
+
+.customers-title__carousel__block__message{
+    background-color: #e4dada;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.customers-title__carousel__block__message p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+    font-style: italic;
+    text-align: left;
+    padding: 10px;
+    opacity: 0.6;
+}
+
+.customers-title__carousel__block__initials{
+    display: flex;
+    
+}
+
+.customers-title__carousel__block__initials__avatar{
+    width: 100px;
+    height: auto;
+    justify-content: center;
+}
+
+.customers-title__carousel__block__initials__avatar img{
+    width: 75px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 23px;
+    margin-left: 8px;
+    
+}
+
+.customers-title__carousel__block__initials__name{
+    align-items: center;
+    padding-top: 32px;
+}
+
+.customers-title__carousel__block__initials__name h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+
+.customers-title__carousel__block__initials__name p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+.mdi-triangle{
+    color: #e4dada;
+    position: absolute;
+    /* padding-left: 35px; */
+    transform: rotate(60deg);
+    font-size: 25px;
+    margin-top: 110px;
+    margin-left: 35px;
+}
+
+/* --------------------------------------stylish-design__background-------------------------------- */
+
+.stylish-design__background{
+    height: 320px;
+    background-color: tomato;
+    background: url('images2/city-street.jpg')no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.stylish-design__title{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.stylish-design__title h1{
+    font-family: 'Conv_lionel-text-steam_bigfontsite.com';
+    font-weight: initial;
+    font-size: 40px;
+    letter-spacing: 7px;
+    color: white;
+}
+
+.stylish-design__title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    opacity: 0.7;
+    color: white;
+}
+
+.stylish-design__divider{
+    border: 1px solid white;
+    width: 70px;
+    margin: 30px auto 30px auto;
+    box-shadow: 0 0 15px rgb(32, 27, 27);
+}
+
+.stylish-design__button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 35px;
+    border: 2px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.stylish-design__button{
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.stylish-design__button a:hover{
+    color: rgb(219, 85, 36);
+    border: 2px solid rgb(219, 85, 36);
+}
+
+.is-black{
+    background-color: black;
+    
+
+}
+
+/* ------------------------------------------contact__page------------------------------------------ */
+
+.contact-page{
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.contact-page__title{
+    text-align: center;
+
+}
+
+.contact-page__title h1{
+    padding-top: 100px;
+    font-family: 'Conv_lionel-text-steam_bigfontsite.com';
+    font-weight: initial;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+
+.contact-page__title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    opacity: 0.7;
+    padding-bottom: 80px;
+}
+
+.contact-page__form{
+    height: 200px;
+    width: 1120px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.contact-page__form__input{
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.1s ease-in-out;
+}
+
+.contact-page__form__input input{
+    width: 550px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0) ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+
+::placeholder{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    opacity: 0.7;
+    
+}
+
+.contact-page__form__message{
+    width: 500px;
+    background-color: rgba(196, 74, 34, 0.616);
+}
+
+.contact-page__form__message input{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 0px 165px 10px;
+    border: 1px solid rgba(255, 255, 255, 0) ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+
+.contact-page__form input:focus{
+    border: 1px solid rgb(212, 92, 48);
+}
+
+.contact-page__button__pole{
+    margin-top: 50px;
+    height: 100px;
+    background-color: rgba(219, 85, 36, 0.404);
+    text-align: center;
+    
+}
+
+.contact-page__button{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.button3{
+    padding: 12px 30px;
+    color: rgb(255, 255, 255);
+    font-weight:500 ;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #da7731;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+}
+
+.button3:hover{
+    background-color: #dd6a18;
+
+}
+
+
+
+footer{
+    height: 100px;
+    background-color: black;
+    
+    text-align: center;
+}
+
+.footer__links{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__links__blocks{
+    align-items: center;
+    padding: 15px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.footer__links i{
+    color: white;
+    font-size: 33px;
+    cursor: pointer;
+    transition:all 0.2s ease-in-out ;
+}
+
+.footer__links i:hover{
+    transform: scale(1.2);
+    color: #dd6a18;
+}
+
+footer p{
+    color: white;
+    margin-top: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+    color: rgb(122, 117, 117);
+    
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(122, 117, 117);
+    transition: all 0.1s ease-in-out;
+}
+
+footer a:hover{
+    background-color: rgba(194, 187, 187, 0.4);
+    color: rgb(211, 203, 203);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
